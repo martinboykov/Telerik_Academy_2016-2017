@@ -1,0 +1,8 @@
+PACKAGE CONTROL - задължително
+Emmet
+SublimeLinter (за CSS и JS курсовете)
+BracketHighlighter
+MultiEditUtils
+Някакъв code formatter (препоръчвам HTML-CSS-JS Prettify - доста добър, но изисква инсталиран node.js)
+install to comp node.js
+install Live Reload to PC (there is addons for Chrome and Firefox)

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. RabinKarp", "01. RabinKarp\01. RabinKarp.csproj", "{3958CED8-DE8D-4BD6-A39B-53CAE07C4768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. KMP", "02. KMP\02. KMP.csproj", "{5F0E03A2-AA81-4EFE-A5EE-C05B1EB73760}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AhoCorasick", "AhoCorasick\AhoCorasick.csproj", "{EC0C12C4-5E3F-4CBF-A568-4D9AECE9866B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3958CED8-DE8D-4BD6-A39B-53CAE07C4768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3958CED8-DE8D-4BD6-A39B-53CAE07C4768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3958CED8-DE8D-4BD6-A39B-53CAE07C4768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3958CED8-DE8D-4BD6-A39B-53CAE07C4768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0E03A2-AA81-4EFE-A5EE-C05B1EB73760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0E03A2-AA81-4EFE-A5EE-C05B1EB73760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0E03A2-AA81-4EFE-A5EE-C05B1EB73760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0E03A2-AA81-4EFE-A5EE-C05B1EB73760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0C12C4-5E3F-4CBF-A568-4D9AECE9866B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0C12C4-5E3F-4CBF-A568-4D9AECE9866B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0C12C4-5E3F-4CBF-A568-4D9AECE9866B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0C12C4-5E3F-4CBF-A568-4D9AECE9866B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

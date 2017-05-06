@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: #595959;
+}
+h1 {
+	font-size: 24px;
+	font-family: 'Solido Book';
+	color:#A7AA9E; 
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+table {
+    width: 300px;
+}
+
+.circle
+{
+width:13px;
+height:13px;
+border-radius:50%;
+background:green;
+display: inline-block;
+}
+tr td
+{
+    padding-bottom: 15px;
+}
+tr td:nth-child(odd) {
+	color:white;
+	font-style: italic;
+}
+tr:nth-child(1) td:nth-child(1),
+tr:nth-child(1) td:nth-child(2) {
+    padding-bottom: 1px;
+}
+tr:first-child td:nth-child(2) span{
+	position: relative;
+    left: 5px;
+}
+tr:nth-child(1) td:nth-child(2),
+tr:nth-child(3) td:nth-child(2),
+tr:nth-child(6) td:nth-child(2){
+	color:#FBF5B5; 
+}
+
+
+tr:nth-child(2) td:nth-child(2) {
+	color:#F6162F; 
+	font-weight: bold;
+}
+tr:nth-child(4) td:nth-child(2), 
+tr:nth-child(5) td:nth-child(2) {
+	color:#A7AA9E; 
+}
+tr:last-child td:nth-child(2) {
+	color:#B76431; 
+	font-weight: bold;
+}
+
+/*just for fun*/
+iframe {
+	width: 350px;
+	height: 250px;
+}
+.i-frame{
+    margin-top: 100%;
+}
+span.i-frame {
+	font-family: 'Old English Text MT';
+	font-size: 22px;
+}	
+/*just for fun*/	

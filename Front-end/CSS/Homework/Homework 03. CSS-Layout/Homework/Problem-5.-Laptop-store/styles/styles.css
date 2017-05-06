@@ -1,0 +1,238 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Corbel';
+}
+.web-page {
+	position: absolute;
+	box-sizing: border-box;
+	width: 1070px;
+	height: 781px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+header {
+	position: relative;
+	box-sizing: border-box;
+	left: 34px;
+	width: 997px;
+	height: 70px;
+	background-color:  white;
+	border-bottom: 1px solid black;
+}
+.main {
+	position: relative;
+	box-sizing: border-box;
+	top: 17px;
+	left: 17px;
+	width: 692px;
+	height: 673px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+.price {
+	position: relative;
+	box-sizing: border-box;
+	bottom: 656px;
+	left: 709px;
+	width: 358px;
+	height: 673px;
+}
+/*===================*/
+/*------HEADER-------*/
+/*===================*/
+.web-page header span {
+	display: inline-block;
+
+	margin-top: 13px;
+	line-height: 45px;
+	color: #00B0F0;
+	font-size: 36px;
+	text-decoration: underline;
+	padding-right: 1px;
+	letter-spacing: 0.09px; 
+	font-weight: 900;
+}
+.web-page header span a { 
+	color: inherit; 
+}
+.web-page header span:first-child {
+	margin-left:175px;
+} 
+.web-page header span:nth-child(1) {
+	padding-left: px;
+} 
+.web-page header span:nth-child(2) {
+	padding-left: 1px;
+	letter-spacing: 0.2px;
+} 
+.web-page header span:nth-child(3) {
+	padding-left: 3px;
+	letter-spacing: 0.4px;
+} 
+.web-page header span:nth-child(4) {
+	padding-left: 3px;
+} 
+.web-page header span:nth-child(5) {
+	padding-left: 2px;
+} 
+.web-page header span:nth-child(6) {
+	padding-left: 4px;
+} 
+.web-page header span:nth-child(7) {
+	padding-left: 4px;
+} 
+/*===================*/
+/*-------MAIN--------*/
+/*===================*/
+.main fieldset { 
+    position:relative; 
+    width: 327px;
+    height: 195px;
+    box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 1px;
+}    
+
+.main fieldset legend { 
+	color: black;
+	position: absolute;
+    top:-19px; 
+    left: 43px;
+    font-size:26px; 
+    font-weight:bold  ;
+    background-color: white;  
+} 
+
+.main fieldset legend:before { content: "\00a0"; }
+.main fieldset legend:after { content: "\00a0 \00a0 \00a0 "; }
+.main fieldset img {
+	position: absolute;
+	top: 15px;
+	left: 6px;
+}
+
+.main fieldset p {
+	font-size: 26px;
+	font-weight: 500;
+	display: inline-block;
+	float:left;
+	margin-left:180px;
+	color:black;
+}
+.main fieldset .first {
+	margin-top: 52px;
+}
+
+.main fieldset .second {
+	margin-top: 18px;
+}
+.main fieldset .third {
+	margin-top: 18px;
+}
+.clear {
+	clear: both;
+}
+.main fieldset .forth  {
+	margin-top: -33px;
+	margin-left:45px;
+}
+
+
+
+.main fieldset:nth-child(1) {
+	top:21px;
+    left:9px;
+}
+.main fieldset:nth-child(2) {
+	bottom:174px;
+    left:347px;
+}
+.main fieldset:nth-child(3) {
+	bottom:151px;
+    left:7px;
+}
+.main fieldset:nth-child(4) {
+	bottom:346px;
+    left:345px;
+}
+.main fieldset:nth-child(5) {
+	bottom:326px;
+    left:6px;
+}
+.main fieldset:nth-child(6) {
+	bottom:521px;
+    left:345px;
+}
+
+/*===================*/
+/*------PRICE--------*/
+/*===================*/
+
+.price div {
+	position: relative;
+	width: 322px;
+	height: 100px;
+	background-color: white;
+	color: black;
+	font-size: 35px;
+	
+}
+.price div span:nth-child(1) {
+	position: absolute;
+	left: 1px;
+}
+.price div span:nth-child(2) {
+	position: absolute;
+	left: 178px;
+}
+
+.price input[id~="sliderRed"] {
+	position: absolute;
+	top: 62px;
+	left: 13px;
+}
+
+.price div:first-child {
+	top: 91px;
+	left: 22px;
+}
+.price div:nth-child(2) {
+	top: 113px;
+	left: 20px;
+}
+.price div:nth-child(3) {
+	top: 153px;
+	left: 19px;
+}
+.price div:nth-child(4) {
+	top: 184px;
+	left: 16px;
+}
+.price div:nth-child(3) span:nth-child(2){
+	position: absolute;
+	left: 205px;
+}
+.price div:nth-child(4) span:nth-child(2) {
+	position: absolute;
+	left: 201px;
+}
+
+/*just for fun*/
+iframe {
+	width: 350px;
+	height: 250px;
+	
+}
+div.i-frame{
+	position: absolute;
+	top: 200%;
+}
+span.i-frame {
+	font-family: 'Old English Text MT';
+	font-size: 22px;
+}	
+/*just for fun*/	

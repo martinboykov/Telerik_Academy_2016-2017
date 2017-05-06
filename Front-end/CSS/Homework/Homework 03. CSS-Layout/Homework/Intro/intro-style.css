@@ -1,0 +1,86 @@
+
+body{
+    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 3vw;
+	text-align: center;
+	margin-top: 28vw;
+	opacity: 0.3;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* Internet Explorer/Edge */
+	user-select: none;           /* Non-prefixed version, currently
+	                                  not supported by any browser */
+
+}
+h1:hover{
+	opacity: 1;
+	ol{
+		opacity: 1;
+	}
+	
+}
+
+ol {
+	padding: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: flex;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#76cdf0+0,1598d5+26,1ca9e6+71,136da5+100 */
+	background: rgb(118,205,240); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(118,205,240,1) 0%, rgba(21,152,213,1) 26%, rgba(28,169,230,1) 71%, rgba(19,109,165,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(118,205,240,1) 0%,rgba(21,152,213,1) 26%,rgba(28,169,230,1) 71%,rgba(19,109,165,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(118,205,240,1) 0%,rgba(21,152,213,1) 26%,rgba(28,169,230,1) 71%,rgba(19,109,165,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76cdf0', endColorstr='#136da5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	opacity: 0.2;
+}
+ol:hover {
+	opacity: 1;
+}
+
+li {
+	list-style: none;
+	list-style:none;
+	text-align: center;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	flex: 1;
+}
+
+li a {
+	display: block;
+	font-size: 1.5vw;
+	color: white;
+	text-align: center;
+	padding: 0.1vw 0.1vw;
+
+	text-decoration: none;
+}
+p {
+	color: white;
+}
+
+li a:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#76a5f0+0,1558d5+66,1c66e6+71,1558d5+81,133ca5+100 */
+background: rgb(118,165,240); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(118,165,240,1) 0%, rgba(21,88,213,1) 66%, rgba(28,102,230,1) 71%, rgba(21,88,213,1) 81%, rgba(19,60,165,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(118,165,240,1) 0%,rgba(21,88,213,1) 66%,rgba(28,102,230,1) 71%,rgba(21,88,213,1) 81%,rgba(19,60,165,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(118,165,240,1) 0%,rgba(21,88,213,1) 66%,rgba(28,102,230,1) 71%,rgba(21,88,213,1) 81%,rgba(19,60,165,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76a5f0', endColorstr='#133ca5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a {
+	font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS-styles.css"/>
+	<style type="text/css">
+		#apples {color: green;} /*override external css style*/
+	</style>
+<title>
+second page!
+</title>
+</head>
+<body>
+
+<!-- FORMS -->
+<form>
+
+
+
+<p>Add your password:</p>
+Password: <input type="password" name="password" maxlength="15" />	
+<input type="submit">
+
+<p>Choose file to submit:</p>	
+<input type="file" name="secretfile">
+
+<p>Tell me about yourself!</p>
+<textarea name="bio" cols="50" rows="8" maxlength="200">Type here!</textarea>
+
+<p>What do you want to do today?</p>
+<select name="activities">
+	<option value="guitar">play guitar</option>
+	<option value="drums">play drums</option>
+	<option value="fleut">play fleut</option>
+	<option value="piano">play piano</option>
+</select>
+<br/>
+<p>What is your name?</p>
+	Username: <input type="text" name="username" size="10px" maxlength="5" value="Enter name here" />
+		<br/>
+<p>What is your sex?</p>
+	Male: <input type="radio" name="sex" value="male"> <!-- add buton -->
+	Female: <input type="radio" name="sex" value="female"><!-- add buton -->
+	<br/>
+	<p>Select the food you want to order!</p>
+	Bacon <input type="checkbox" name="foos" value="bacon">
+	Ham <input type="checkbox" name="foos" value="bacon">
+	Tuna <input type="checkbox" name="foos" value="bacon">
+</form>
+<!-- FORMS -->
+
+<div id="apples">i am apple box</div>
+<div id="blueberry">you sono blue berry</div>
+
+
+
+
+
+</body>
+
+</html>

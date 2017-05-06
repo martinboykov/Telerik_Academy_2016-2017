@@ -1,0 +1,456 @@
+<!--<!doctype html> not a vallid doctype (case sensative)-->
+<!--<!DOCTYPE html> for HTML5-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+
+
+
+
+	<style type="text/css">
+	/*<!--needs this in order to use CSS (have to be in the <head>-->*/
+
+/*<!--CSS - SPAN AND DIV - START-->
+<!-- ----------------------------------------------------------------------- -->*/
+
+
+
+		p:first-letter {font-weight:bold; /*style only first letter*/
+						font-size: 30px;
+						color: Red;}
+
+		h6>a {color:red;
+			font-size: 30px;}
+
+
+/*<!-- CSS - SPAN AND DIV - END-->
+<!-- ----------------------------------------------------------------------- -->*/
+
+div {border: 2px solid red;
+	position: absolute;
+	width: 120px;
+	top: 1px;
+	left: 50%;}
+
+
+.largefont { 
+  color: red; 
+  font-family:arial; 
+  font-size: 16px; 
+}
+span {color: yellow;}
+
+
+
+/* <!--CSS - STYLING LIST INDENTATION - START-->
+<!-- ----------------------------------------------------------------------- --> */
+
+ul {list-style-type: none; /* remove the dots */
+	padding-left: 0px} /* remove the padding before dots */
+ul {border: 1px solid red;} 
+
+/* <!-- CSS - STYLING TABLES - END-->
+<!-- ----------------------------------------------------------------------- --> */
+
+
+
+
+	
+	/*<!--CSS - STYLING TABLES - START-->*/
+	/*<!--------------------------------------------------------------------------->*/
+	
+		table {border: 3px solid blue;}
+		tr {background-color: yellow;color:black}
+		td {border:2px dotted blue;}
+	
+	
+	
+	/*<!--CSS - STYLING TABLES - END-->*/
+	/*<!--------------------------------------------------------------------------->*/
+	
+	/*<!--CSS - LINK STYLES - START-->*/
+	/*<!--------------------------------------------------------------------------->*/
+	/*<!-- style by default -->*/
+	a:link {background-color:white;color:red;
+			text-decoration:none;}
+
+	/*<!-- style when page has been visited/clcked -->*/
+	a:visited {color:green;}
+	
+	/*<!-- style when mausing over the link -->*/
+	a:hover {background-color:blue;color:white; 
+	text-decoration:underline;
+	font-weight:bold;}
+	
+	/*<!--style when mausbuten is down (when clicking) the link -->*/
+	a:active{background-color:green;}
+	
+	
+	/*<!--CSS - LINK STYLES - START-->*/
+	/*<!--------------------------------------------------------------------------->*/
+	
+	
+	/*<!--CSS - BOX MODEL - START-->*/
+	/*<!--------------------------------------------------------------------------->*/
+	
+	h5 {width: 300px;}/*<!--adjust the width of the padding-->*/
+	
+	
+		h5{background-color: orange;color:black;
+			margin:11px; <!--/*adds space around textpadding (h5 in this case)-->*/ 
+			/*<!--can have it at -top; -bottom; -right or -left-->*/ 
+			/*<!--padding - inside the border-->*/
+			/*<!--margin - outside the border-->*/
+		}
+		h4{background-color: yellow;color:black;
+/*<!--border-color:red; adds color to the border (outlines the padding) of the text/-->*/
+/*<!--border-width:3px; adds width to the border (outlines the padding) of the text/-->*/
+/*<!--border-style:dashed;adds style to the border (outlines the padding) of the text/-->*/
+			
+			border-top-color:red; 
+			/*<!--adds color to the top border (outlines the padding) of the text/-->*/ 
+			border-top-width:5px;
+			/*<!--adds width to the top border (outlines the padding) of the text/-->*/
+			border-top-style:dotted;
+			/*<!--adds style to the top border (outlines the padding) of the text/-->*/ 
+		
+		}
+		
+		h2 {background-color: yellow;color:black;
+		    /*<!--padding:20px;adds space around the text-->*/
+			padding-top:20px;<!--/*adds space above the text-->*/
+			padding-bottom:10px;<!--/*adds space on the botom of the text-->*/
+			padding-left:10px;<!--/*adds space on the left of the text-->*/
+			padding-right:10px;<!--/*adds space on the right of the text-->*/
+		}
+		
+		/*<!------------------------------------------------------------------------->*/
+		/*<!--CSS - BOX MODEL - END-->*/
+		
+		
+		
+		body{background-image:url(grass.jpg); /*<!--adds background picture to the body-->*/
+		
+		/*<!--background-repeat: no-repeat; make the background image single in top left corner-->*/
+		
+		/*<!--background-position: 10px 60px; position the background image at  10px from left on x-axis and 60px from top on y-axis-->*/
+		/*<!--background-position: 50% 60px; position the background image at  50% from left on x-axis and 60px from top on y-axis-->*/
+		} 
+		
+		body {background-color:#0ea7af;} /*<!--adds background color to the entire body of the web page-->*/
+		
+		body {color:white;} /*<!-- add color to the entire body (except to already assigned colors) of the web page-->*/
+		
+		h3 {text-align: center;} /*<!--align the text in center-->*/
+		
+		p {text-indent:25px;} /*<!--adds indent (space in the beggining of the paragraph-->*/
+		
+		ul {font-weight: bold;} /*<!--make the ul - text bold-->*/
+		
+		ol {font-style: italic;}   /*<!--make the ol - text italic-->*/
+		
+		h1 {color:white;} /*<!--input RGB value-->*/
+		
+		p {color: white; font-family:arial;}	 /*<!--change the color and font of all paragraphs-->*/
+		p {line-height:100%;} /*<!--change the height of all paragraphs-->*/
+		
+
+		
+		
+	</style>
+
+
+
+
+
+<title>
+This is the title, sucker!
+</title>
+</head>
+<body>
+
+
+
+
+<!--CSS - SPAN AND DIV - START-->
+<!-- ----------------------------------------------------------------------- -->
+
+<p>Stack Overflow is a community of 4.7 million programmers, just like you</p>
+<p>Join them</p>
+<br />
+<br />
+<br />
+<a href="http://stackoverflow.com/">stackoverflow</a>
+<p><a href="http://stackoverflow.com/">stackoverflow</a></p>
+<h6><a href="http://stackoverflow.com/">stackoverflow</a></h6>
+
+
+<div>my name is bucky</div>
+
+
+
+<p>this is <span>span</span> <span class="largefont">largefont</span></p>
+
+this is normal text
+<h3>this is header</h3>
+<p>this is paragraph</p>
+<!-- CSS - SPAN AND DIV - END-->
+<!-- ----------------------------------------------------------------------- -->
+<br />
+<br />
+<br />
+<!--CSS - STYLING LIST INDENTATION - START-->
+<!-- ----------------------------------------------------------------------- -->
+<ul>
+	<li>apple</li>
+	<li>pie</li>
+	<li>dumplings</li>
+
+</ul>
+<!-- CSS - STYLING TABLES - END-->
+<!-- ----------------------------------------------------------------------- -->
+<br />
+<br />
+<br />
+<!--video at 2:37:26-->
+<!--CSS - STYLING TABLES - START-->
+<!--------------------------------------------------------------------------->
+	
+	<table>
+		<tr>
+			<td>tables styles in CSS</td>
+			<td>tables styles in CSS</td>
+			<td>tables styles in CSS</td>
+		</tr>
+		<tr>
+	    	<td>tables styles in CSS</td>
+			<td>tables styles in CSS</td>
+	    	<td>tables styles in CSS</td>
+        </tr>
+		
+	</table>
+<!-- CSS - STYLING TABLES - END
+----------------------------------------------------------------------- -->
+<br />
+<br />
+<br />
+<!--CSS - LINK STYLES - START*//-->
+<!--/*-----------------------------------------------------------------------*/-->
+	
+	<a href="second.html">second page</a>
+	
+	<p>next line</p>
+	
+<!--CSS - LINK STYLES - END*/-->
+<!--/*-----------------------------------------------------------------------*/-->	
+<br />
+<br />
+<br />
+<!--/*CSS - BOX MODEL - START*/-->
+<!--/*-----------------------------------------------------------------------*/-->
+
+<h5>margins</h5>
+<h5>margins</h5>
+
+<h4>border</h4>
+
+<h2>padding</h2>
+
+<!--/*---------------------------------------------------------------------*/-->
+<!--/*CSS - BOX MODEL - END*/-->
+<br />
+<br />
+<br />
+
+<h3> Bucky's Blog</h3>
+<p>The astute among you will have noticed (or already known) that using // like this isn't really "commenting out" anything at all. Instead, it's just putting an invalid value into the stylesheet and relying on CSS's error-recovery rules to kill the next construct on the page and then recover gracefully. Because CSS's error recovery is well-defined, you can rely on every browser that implements it correctly to work in the expected way.</p>
+
+
+
+
+	<ul>
+		<li>unordered list</li>
+	</ul>
+	<ol>
+		<li>ordered list</li>
+	</ol>
+
+
+
+
+<h1>Bucky bacon wagon</h1>
+<p>Sportsman delighted improving dashwoods gay instantly happiness six. Ham now amounted absolute not mistaken way pleasant whatever. At an these still no dried folly stood thing. Rapid it on hours hills it seven years. If polite he active county in spirit an. Mrs ham intention promotion engrossed assurance defective. Confined so graceful building opinions whatever trifling in. Insisted out differed ham man endeavor expenses. At on he total their he songs. Related compact effects is on settled do. </p>
+
+
+
+
+
+<ul><!--creates unorder list-->
+	<li>go to youtube</li>
+	<li>type in keybord</li>
+	<li>wtch all the videos</li>
+</ul>
+
+<ol><!--creates order list-->
+	<li>go to youtube</li>
+	<li>type in keybord</li>
+	<li>wtch all the videos</li>
+</ol>	
+
+
+<table border="1" cellspacing="10"> <!--put space between borders of the cells (cells are separated between each other)-->
+
+	<tr>
+		<th>Type</th>
+		<th>Reason</th>
+	</tr>
+	<tr>
+		<td>Cat People</td>
+		<td>17 cats are too many</td>
+	</tr>
+	<tr>
+		<td>Loud People</td>
+		<td>Nobady likes loud people</td>
+	</tr>
+</table>
+
+<table border="1" cellpadding="10"> <!--put tabs in the cell (make it with bigger height)-->
+
+	<tr>
+		<th>Type</th>
+		<th>Reason</th>
+	</tr>
+	<tr>
+		<td>Cat People</td>
+		<td>17 cats are too many</td>
+	</tr>
+	<tr>
+		<td>Loud People</td>
+		<td>Nobady likes loud people</td>
+	</tr>
+
+</table>
+
+
+<table border="1" width="100%"> <!--adjust the width of the table "100" (with pixels) or "100%" as percent of the witdh of the browser/screen) -->
+
+	<tr>
+		<th>Type</th>
+		<th>Reason</th>
+	</tr>
+	<tr>
+		<td>Cat People</td>
+		<td>17 cats are too many</td>
+	</tr>
+	<tr>
+		<td>Loud People</td>
+		<td>Nobady likes loud people</td>
+	</tr>
+
+</table>
+
+
+<table border="1">
+	<tr>
+		<th colspan="2"><h3>Odd People</h3></th> <!--adjust the hight of the cell to two cells height -->
+	</tr>
+	<tr>
+		<th>Type</th> <!--dd header cell (bold and centered)-->
+		<th>Reason</th>
+	</tr>
+	<tr>
+		<td>Cat People</td> <!--add header cell-->
+		<td>17 cats are too many</td>
+	</tr>
+	<tr>
+		<td>Loud People</td>
+		<td>Nobady likes loud people</td>
+	</tr>
+
+</table>
+
+
+<table border="1">
+<tr>
+<th>Name</th><!--add header cell (bold and centered)-->
+<th>Movie</th>
+<th>Who they love</th>
+</tr>
+
+<tr>
+<td>Natalie Portman</td>
+<td>Garden State</td>
+<td>Bucky</td>
+</tr>
+
+<tr>
+<td>Rachael McAdams</td>
+<td>Mean Girls</td>
+<td>Bucky</td>
+</tr>
+</table>
+
+
+<table border = "5"><!--add border to the cell-->
+<tr>
+<td>FISH</td>
+<td>apples</td>
+<td>tuna</td>
+</tr>
+    <tr><!--add rolls-->
+	<td>tuba</td><!--add columns (between rolls (<tr></tr>)-->
+	<td>ham chops</td>
+	<td>corn?</td>
+	</tr>
+
+</table>
+
+<a href="http://muse.mu/"><img src="my face.jpg" height="150"/></a> <!--add link to resized image-->
+<p></p>
+<a href="http://muse.mu/"><img title="muse web site"/></a> <!--add hover title to link-->
+<p></p>
+
+
+ <p><a href="second.html">"This is link to the second page"</a> <!--link to second page-->
+</p>
+ 
+ 
+<p><a href="#anker1">This is only for begineers. </a></p><!--link to the anker (name)in the page-->
+<p><a href="#anker2">This tutorial </a></p>
+<p><a href="#anker3">The first thing</a></p>
+<p><a href="#anker4">A web host is</a></p>
+<p><a href="#anker5">Once you have settled</a></p>
+
+
+
+
+
+
+<h3><a name="anker1"></a>This is only for begineers.</h3><!-- create an anker (name)in the page to connect with link (see above)-->
+<p>This is the video where you can see all about (full) HTML and CSS with in just 4 hour</p>
+<p><a name="anker2"></a>This tutorial shows you how to make or create a website. It is intended for the beginner and layperson, taking you step by step through the whole process from the very beginning. </p>
+
+<p><a name="anker3"></a>The first thing you need to do before anything else is to get yourself a domain name.</p>
+
+<p><a name="anker4"></a>A web host is basically a company that has many computers connected to the Internet. When you place your web pages on their computers, everyone in the world will be able to connect to it and view them. </p>
+
+ <p><a name="anker5"></a>Once you have settled your domain name and web host, the next step is to design the web site itself. In this article, I will assume that you will be doing this yourself. If you are hiring a web designer to do it for you, you can probably skip this step, since that person will handle it on your behalf.</p>
+
+
+ 
+This is only for begineers. <br /> <!-- add brake (create second line)-->
+This is the video where you can see all about (full) HTML and CSS with in just 4 hour
+
+<h1>HTML and CSS Tutorial Create Your own Complete Website</h1><!-- add header (create bigger text on its own line)-->
+ <p>This is <em>only</em><!--emphasize text--> for begineers.  </p><!-- add paragraph (makes text on separate line)-->
+ <p>This is the video where you can see <strong>all</strong> <!--makes the text bold text-->about (full) HTML and CSS with in just 4 hour</p>
+ 
+ 
+ 
+
+</body>
+
+</html>
+	

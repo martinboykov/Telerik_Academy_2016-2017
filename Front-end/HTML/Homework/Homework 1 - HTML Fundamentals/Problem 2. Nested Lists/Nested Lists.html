@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS-styles.css"/>
+</head>
+<body>
+    <p>Preceding text</p>
+    <ol id="I" type="I" >  <!-- type="I" -->
+        <li>
+            List Item 1
+        </li>
+            <ol id="a" type="a" >
+                <li>
+                    Nested Item 1.1
+                </li>
+                <li>
+                    Nested Item 1.2
+                </li>
+            </ol>
+        <li>
+            List Item 2
+        </li>
+            <ol id="one" type="1">
+                <li>
+                    Nested Item 2.1
+                </li>
+                <li>
+                    Nested Item 2.2
+                </li>
+                    <ul id="circle" type="circle">
+                        <li>
+                            Nested Item 2.2.1
+                        </li>
+                        <li>
+                            Nested Item 2.2.2
+                        </li>
+                            <ul id="square" type="square">
+                                <li>
+                                   Nested Item 2.2.2.1
+                                </li>
+                                <li>
+                                 Nested Item 2.2.2.2
+                                </li>
+                            </ul>
+                        <li>
+                            Nested Item 2.2.3
+                        </li>
+                    </ul>
+                <li> 
+                    Nested Item 2.3
+                </li>
+            </ol>
+        <li>
+            List Item 3
+        </li>
+            <ul id="disc" type="disc">
+                <li>
+                    Nested Item 3.1
+                </li>
+                <li>
+                    Nested Item 3.2 <!-- makes no sense to be 3.1, as is in the homework -->
+                </li>
+                <li>
+                    Nested Item 3.3 <!-- makes no sense to be 3.1, as is in the homework -->
+                </li>
+            </ul>
+</ol>
+</body>
+</html>

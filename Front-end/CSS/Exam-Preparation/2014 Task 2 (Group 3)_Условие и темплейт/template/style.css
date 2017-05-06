@@ -1,0 +1,82 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+#wrapper {
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 960px;
+	font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+	font-size: 16px;
+}
+
+.menu{
+	
+	max-width: 170px;
+	
+	
+}
+.content {
+	position: absolute;    /*/////////////////////////ABSOLUTE////////////////////////*/
+	display: none;
+}
+.menu li{
+	position: relative;    /*/////////////////////////RELATIVE////////////////////////*/
+	background-color: #B6FF00;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+	text-align: center;
+	color: black;
+}
+.menu li a{
+	text-decoration: none;
+	color: inherit;
+}
+.menu li:hover a{
+	text-decoration: underline;
+	
+}
+.menu li:hover li{
+	list-style-type: none;
+}
+
+.menu  li:hover .content  {
+	
+	top: 0px;
+	left: 170px;
+	display: block;
+	min-width: 100%;
+	
+}
+.menu  li:hover .sub-menu li {
+	margin:0;
+	padding:0;
+	padding: 20px;
+	min-width: 500px;
+	margin-bottom: 10px;
+	background-color: #008000;
+	color: white;
+	text-align: left;
+}
+
+.menu  li:hover .sub-menu a {
+	text-decoration: none;
+}
+
+.menu  li:hover .sub-menu img {
+	display: none;
+}
+.menu  li:hover .sub-menu li:hover {
+	text-decoration: underline;
+}
+.menu  li .sub-menu:hover  a:hover + img{
+	margin-top: 10px;
+	display: block;
+	border-radius: 10px;
+	max-width: 500px;
+	background-color: white;
+}

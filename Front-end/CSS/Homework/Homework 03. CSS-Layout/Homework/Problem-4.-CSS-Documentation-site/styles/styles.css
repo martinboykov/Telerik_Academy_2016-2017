@@ -1,0 +1,450 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.page {
+	position: relative;
+	width: 791px;
+	height: 584px;
+	background-color: white;
+	border-radius: 3px;
+	font-family: Tahoma;
+}
+.container {
+	position: relative;
+	top: 3px;
+	left: 1px;
+	width: 786px;
+	height: 577px;
+	background-color: white;
+	border: 1px solid black;
+}
+.left {
+	float: left;
+	margin-top: 3px;
+	margin-left: 3px;
+	width: 136px;
+	height: 574px;
+	background-color: white;
+
+}
+.main {
+	position: absolute;
+	top: 3px;
+	left: 142px;
+	width: 494px;
+	height: 548px;
+	background-color: white;
+	border: 1px solid #A5A5A5;
+}
+.right {
+	position: relative;
+	margin-top: 3px;
+	margin-left: 639px;
+	width: 145px;
+	height: 560px;
+	background-color: white;
+}
+/*------------------------*/
+/*BEGINNING OF LEFT ASIDE*/
+/*------------------------*/
+.left input {
+	margin-top: 14px;
+}
+
+.left {
+	font-size: 11px;
+	
+}
+
+.left-one {
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.left-one a{
+	text-decoration: none;
+	color: black
+}
+
+.left-one a:first-child {
+	font-weight: bold;
+	color: #910D0B;
+}
+
+.left-two {
+	padding-bottom: 10px;
+}
+.left-two a{
+	text-decoration: none;
+	color: black
+}
+
+.left-two a:first-child {
+	font-weight: bold;
+	color: #910D0B;
+}
+
+.left-three {
+	padding-bottom: 10px;
+}
+.left-three a{
+	text-decoration: none;
+	color: black
+}
+
+.left-three a:first-child {
+	font-weight: bold;
+	color: #910D0B;
+}
+
+.left-four {
+	padding-bottom: 10px;
+}
+.left-four a{
+	text-decoration: none;
+	color: black
+}
+
+.left-four a:first-child {
+	font-weight: bold;
+	color: #910D0B;
+}
+
+.left-five {
+	padding-bottom: 10px;
+}
+.left-five a{
+	text-decoration: none;
+	color: black
+}
+
+.left-five a:first-child {
+	font-weight: bold;
+	color: #910D0B;
+}
+/*---------------------------*/
+/*BEGINNING OF MIDDLE SECTION*/
+/*---------------------------*/
+h1 {
+	color: black;
+	font-size: 14px;
+	margin-top: 22px;
+	margin-left: 6px;
+	padding-bottom: 10px;
+}
+input[name~="Provious"] {
+	margin-left: 6px;
+}
+.break {
+	width: 484px;
+	height: 1px;
+	margin-top: 4px;
+	margin-left: 6px;
+	margin-bottom: 7px;
+	background-color: #808080;
+}
+.silver{
+	width: 484px;
+	height: 14px;
+	background-color: #808080;
+}
+.silver span{
+	font-size: 12px;
+	line-height: 14px;
+	color:white;
+	vertical-align: top;
+	padding-left: 3px;
+}
+.text p{
+	padding-bottom: 10px;
+	}
+.text p a{
+	color:#8A0404;
+}
+.Tutorial {
+	margin-left: 6px;
+	position: relative;
+	width: 484px;
+	height: 141px;
+	background-color: white;
+}
+.Tutorial div span{
+	font-size: 12px;
+	line-height: 14px;
+	color:white;
+	vertical-align: top;
+	padding-left: 3px;
+}
+.Tutorial .text {
+	position: absolute;
+	width: 355px;
+	top: 28px;
+	left: 120px;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+	font-weight: bold;
+}
+.Tutorial .text p a {
+	font-weight: normal;
+}
+img[alt~="CSS"] {
+	float:left;
+	margin-top: 16px;
+	margin-left: 5px;
+	color: black;
+}
+
+.Examples {
+	margin-left: 6px;
+	position: relative;
+	width: 484px;
+	height: 87px;
+	background-color: white;
+}
+
+.Examples .text {
+	position: absolute;
+	top: 25px;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+}
+
+.Reference {
+	margin-left: 6px;
+	position: relative;
+	width: 484px;
+	height: 87px;
+	background-color: white;
+}
+
+.Reference .text {
+	position: absolute;
+	top: 25px;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+}
+.Quiz {
+	margin-left: 6px;
+	position: relative;
+	width: 484px;
+	height: 68px;
+	background-color: white;
+	margin-bottom: 4px;
+}
+
+.Quiz .text {
+	position: absolute;
+	top: 25px;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+
+}
+/*------------------------*/
+/*BEGINNING OF RIGHT ASIDE*/
+/*------------------------*/
+.right .text  {
+	text-align: center;
+	line-height: 14px;
+}
+
+.right .text a {
+	color: #9C2524;
+	font-size: 12px;
+	text-align: center;
+}
+
+.silverS{
+	text-align: center;
+	width: 143px;
+	height: 16px;
+	background-color: #808080;
+}
+.silverS span{
+	font-size: 12px;
+	line-height: 14px;
+	color:white;
+	vertical-align: top;
+}
+.sitesearch {
+	position: absolute;
+	width: 143px;
+	height: 78px;
+	background-color:  white;
+	border-left: 1px solid #9E9E9E;
+	border-right: 1px solid #9E9E9E;
+	border-bottom: 1px solid #9E9E9E;
+}
+.sitesearch input[name~="text"] {
+
+	width: 92px;
+	height: 17px;
+	margin-left:12px; 
+	margin-top:7px; 
+	border: 1px solid #83A0BB;
+	margin-bottom: 2px;
+}
+.sitesearch input[name~="dots"] {
+	position: absolute;
+	display: inline;
+	margin-left: 4px; 
+	margin-top:  7px;
+}
+
+.dynamic {
+	position: absolute;
+	width: 143px;
+	height: 78px;
+	top: 80px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.dynamic input[name~="Styles"] {
+	margin-left:19px; 
+	margin-top:3px; 
+}
+.webhosting {
+	position: absolute;
+	width: 143px;
+	height: 63px;
+	top: 161px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.webhosting div a {
+	line-height: 10px;
+}
+.domainNames {
+	position: absolute;
+	width: 143px;
+	height: 48px;
+	top: 227px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.Buy-UK-Domain {
+	position: absolute;
+	width: 143px;
+	height: 35px;
+	top: 278px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+
+.cheapDomain {
+	position: absolute;
+	width: 143px;
+	height: 35px;
+	top: 316px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.best-web-hosting {
+	position: absolute;
+	width: 143px;
+	height: 22px;
+	top: 354px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.domain-name-registration {
+	position: absolute;
+	width: 143px;
+	height: 35px;
+	top: 379px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.PHP-MySQL-Hosting {
+	position: absolute;
+	width: 143px;
+	height: 21px;
+	top: 417px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.PHP-MySQL-Hosting div a {
+	vertical-align: text-bottom;
+}
+.Top-10-Web-Hosting {
+	position: absolute;
+	width: 143px;
+	height: 21px;
+	top: 441px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.Top-10-Web-Hosting div a {
+	vertical-align: text-bottom;
+}
+.Web-Hosting-Providers {
+	position: absolute;
+	width: 143px;
+	height: 21px;
+	top: 465px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.Web-Hosting-Providers div a {
+	vertical-align: text-bottom;
+}
+.Web-Hosting-Company {
+	position: absolute;
+	width: 143px;
+	height: 21px;
+	top: 489px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.Web-Hosting-Company div a {
+	vertical-align: text-bottom;
+}
+.Web-Hosting-Review {
+	position: absolute;
+	width: 143px;
+	height: 21px;
+	top: 513px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.Web-Hosting-Review div a {
+	vertical-align: text-bottom;
+}
+.UK-Web-Hosting {
+	position: absolute;
+	width: 143px;
+	height: 21px;
+	top: 537px;
+	background-color:  white;
+	border: 1px solid #9E9E9E;
+}
+.UK-Web-Hosting div a {
+	vertical-align: text-bottom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*just for fun*/
+iframe {
+	width: 350px;
+	height: 250px;
+}
+.i-frame{
+    margin-top: 100%;
+}
+span.i-frame {
+	font-family: 'Old English Text MT';
+	font-size: 22px;
+}	
+/*just for fun*/	

@@ -1,0 +1,6 @@
+string
+.replace
+.search
+.concat
+.indexOf
+.substr

@@ -1,0 +1,31 @@
+th 
+{
+	border: 0px solid black;
+    vertical-align: inherit;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-indent: 165px;
+    padding-bottom: 5px;
+    font-size: 27px;
+}
+#second 
+{
+    border-collapse: collapse;
+    margin-left:20px
+}
+#text
+{
+    padding-left: 15px;
+    font-size: 18px;
+}
+#image
+{
+    padding-left: 5px;
+}
+#second td
+{
+	border: 2px inset #CECECE;
+	width: 30px;
+	height: 25px;
+}

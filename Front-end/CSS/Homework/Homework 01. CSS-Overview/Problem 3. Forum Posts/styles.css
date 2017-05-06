@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #A9A9A9;
+	padding-left: 5px;
+}
+h1 {
+	color:#FAFAD2;
+	text-align: center;
+	font-size: 46px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+article > header > h1 {
+	text-align: left;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+nav ul li {
+	text-align: center;
+	color: #FFFFFF;
+	list-style-type: none;
+	font-weight: bold;
+}
+nav ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav ul li:last-child a{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+nav {
+	font-size: 24px;
+}
+section > article > p {
+	text-align: left;
+	font-size: 16px;
+
+}
+
+.current{
+	background-color: #D3D3D3;
+}
+
+section article:first-child > p:before{
+	content: "In posuere bibendum enim vel venenatis. Integer gravida, tortor quis gravida fermentum, libero orci hendrerit sapien, sed facilisis turpis mauris vitae turpis.";
+	font-size: 18px;
+}
+section article:first-child > p
+{
+	font-size: 0px;
+}
+
+section article:nth-child(2) p,
+section article:nth-child(2) h1,
+section article:nth-child(2) footer
+{
+	font-size: 0px;
+	padding: 0px;
+}
+
+section article:last-child > p
+{
+	font-size: 0px;
+}
+section article:last-child > p:before{
+	content: "Aliquam eleifend, nisi ut facilisis pharetra, mauris ipsum sagittis lacus, vel aliquam urna felis ac leo. Nullam massa odio, consequat ut p";
+	font-size: 18px;
+}
+
+footer {
+	padding-top: 15px;
+	font-size: 12px;
+}
+section article:first-child footer p:before,
+section article:last-child footer p:before {
+	content:"posted on 12-dec-2012 by Doncho Minkov";
+	font-size: 14px;
+}
+
+footer  p {
+	font-size: 0px;
+}
+body > footer:before {
+	content:"Telerik Software Academy 2012 - CSS Course";
+	font-size: 16px;
+	font-weight: bold;
+}
+body > footer {
+	font-size: 0px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*just for fun*/
+iframe {
+	width: 350px;
+	height: 250px;
+}
+.i-frame{
+    margin-top: 100%;
+}
+span.i-frame {
+	font-family: 'Old English Text MT';
+	font-size: 22px;
+}	
+/*just for fun*/	

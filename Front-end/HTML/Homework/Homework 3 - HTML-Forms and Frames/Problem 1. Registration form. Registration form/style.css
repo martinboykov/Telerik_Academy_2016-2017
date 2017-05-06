@@ -1,0 +1,19 @@
+table, td, tr 
+{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+th 
+{
+	width: 10px;
+	text-align: center;
+}
+tfoot 
+{
+	text-align:center;
+	background-color: #121656;
+}
+textarea 
+{
+	resize: none;
+}

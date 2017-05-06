@@ -1,0 +1,13 @@
+[F5] - start program (instant)
+
+ctrl + [F5] - start program with pause at end point
+[F6] - компилиране
+[F9] - поставяне на стопер на избрания ред (при debug)
+[F10] преминаване на следващия ред (при debug)
+[Shift + F5] - Debug –> Stop Debugging
+
+
+
+ctrl+k+d - подравнява
+ctrl+k+c - прави целия текст коментар
+alt + избиране на няколко реда - позволява писане на няколко реда едновременно

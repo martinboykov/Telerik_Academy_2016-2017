@@ -1,0 +1,23 @@
+
+
+h1 {color: blue;}
+p {font-family: Arial;
+	color: red;
+	font-size: 20px;}
+a {color: orange;}
+#apples {color: blue;
+		border: 2px solid red;
+		position: relative; 
+		width: 120px;
+		height: 20px;
+		top: 150px;
+		left: 15px;
+}
+#blueberry {color: red;
+            border: 2px solid red;
+			position: relative;
+			width: 180px;
+		    height: 20px;
+		    top: 200px;
+		    left: 15px;
+}

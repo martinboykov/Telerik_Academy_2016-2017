@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+div {
+    width: 97%;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 60px;
+}
+
+
+
+
+
+
+/*just for fun*/
+iframe {
+	width: 350px;
+	height: 250px;
+}
+.i-frame{
+    margin-top: 100%;
+}
+span.i-frame {
+	font-family: 'Old English Text MT';
+	font-size: 22px;
+}	
+/*just for fun*/	

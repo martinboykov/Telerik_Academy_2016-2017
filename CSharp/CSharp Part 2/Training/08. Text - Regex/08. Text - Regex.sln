@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Regex 1", "01. Regex 1\01. Regex 1.csproj", "{48A58365-DBB9-4531-9AA7-742B77E612E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Regex - character classes,sets", "02. Regex - character classes,sets\02. Regex - character classes,sets.csproj", "{42736333-9170-4AFC-8A05-86AAA157E888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Regex - extract sentences", "03. Regex - extract sentences\03. Regex - extract sentences.csproj", "{CCCC8610-0BEE-4836-BF15-567BFC5167CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A58365-DBB9-4531-9AA7-742B77E612E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A58365-DBB9-4531-9AA7-742B77E612E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A58365-DBB9-4531-9AA7-742B77E612E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A58365-DBB9-4531-9AA7-742B77E612E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42736333-9170-4AFC-8A05-86AAA157E888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42736333-9170-4AFC-8A05-86AAA157E888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42736333-9170-4AFC-8A05-86AAA157E888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42736333-9170-4AFC-8A05-86AAA157E888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCC8610-0BEE-4836-BF15-567BFC5167CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCC8610-0BEE-4836-BF15-567BFC5167CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCC8610-0BEE-4836-BF15-567BFC5167CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCC8610-0BEE-4836-BF15-567BFC5167CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

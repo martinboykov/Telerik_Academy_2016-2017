@@ -1,0 +1,9 @@
+table, td, th 
+{
+	border: 2px ridge;
+	border-collapse: collapse;
+}
+a 
+{
+	color: #79B8FE;
+}

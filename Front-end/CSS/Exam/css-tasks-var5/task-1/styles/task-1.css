@@ -1,0 +1,192 @@
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  margin: 30px;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#wrapper {
+	background-color: #E6E6E6;
+	max-width: 270px;
+	min-height: 505px;
+
+}
+#avatar {
+background-color: #E6E6E6;
+}
+#avatar img{
+	width: 230px;
+	height: 230px;
+	border-radius: 180px;
+	border-color: white;
+	border: 1px solid white;
+	margin-left: 19px;
+	margin-top: 9px;
+
+}
+.user-info {
+	margin-top: 5px;
+	margin-left: 10px;
+	max-width:250px;
+}
+#main-info {
+	border-bottom: 2px solid #EEEEEE;
+	min-height: 90px;
+}
+
+#main-info > h1 {
+	
+	text-align: center;
+	font-size: 26px;
+}
+#main-info > h2 {
+	font-weight: normal;
+	font-size: 20px;
+	margin-top:0px;
+	text-align: center;
+	color: #666666;
+}
+#main-info #label {
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: bottom;
+	width: 31px;
+	height: 17px;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 80px;
+	text-align: center;
+	color: white;
+	background-color: #6CC644; 
+}
+#main-info>a {
+	font-size: 12px;
+	color: #4AA8DC;
+	text-decoration: none;
+}
+#details{
+	
+	border-bottom: 2px solid #EEEEEE;
+	min-height: 90px;
+}
+#location {
+	position: relative;
+	height: 35px;
+}
+
+.octicon-location{
+	position: absolute;
+	display: inline-block;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+#location>p{
+	position: absolute;
+	left: 20px;
+	display: inline-block;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+#mail {
+	position: relative;
+	height: 25px;
+}
+
+.octicon-mail {
+	position: absolute;
+	left: 30px;
+}
+#mail>p a {
+
+	font-size: 14px;
+	position: absolute;
+	top: px;
+	left: 55px;
+	text-decoration: none;
+	color: #4AA8DC;
+}
+
+
+#joined {
+	position: relative;
+	height: 30px;
+}
+.octicon-clock {
+	position: absolute;
+	left: 39px;
+	top: 3px;
+}
+
+#joined>p  {
+
+	font-size: 14px;
+	position: absolute;
+	top: 3px;
+	left: 62px;
+	text-decoration: none;
+	color: #4AA8DC;
+}
+
+
+
+
+#get-info {
+	position: relative;
+	border-bottom: 2px solid #EEEEEE;
+	max-height: 60px;
+}
+.followers {
+	margin-left: 15px;
+	margin-top: 8px;
+	float: left;
+	font-size: 11px;
+	color: #A68F87;
+	text-align: center;
+	vertical-align: 
+}
+.followers>span {
+	display: block;
+	color: #4078C0;
+	font-size: 28px;
+	font-weight: bold;
+	
+	
+}
+
+.starred {
+	float: left;
+	margin-left: 35px;
+	margin-top: 8px;
+	float: left;
+	font-size: 11px;
+	color: #A68F87;
+	text-align: center;
+}
+.starred>span {
+	display: block;
+
+	color: #4078C0;
+	font-size: 28px;
+	font-weight: bold;
+}
+.following{
+	float: left;
+	margin-left: 35px;
+	margin-top: 8px;
+	float: left;
+	font-size: 11px;
+	color: #A68F87;
+	text-align: center;
+}
+.following>span {
+	display: block;
+	
+	color: #4078C0;
+	font-size: 28px;
+	font-weight: bold;
+}
+
