@@ -1,0 +1,19 @@
+mixin modifyPost(topicTitle, id, commContent)
+    script(src = '/static/js/modifyPost.js')
+    .modify-conteiner
+        .modify-form
+            form.form-horizontal(action=`/topics/${topicTitle}/${id}/edit` method="post")
+                textarea.form-control(rows=3  name="content" )| #{commContent}
+                button.confirm-btn.btn.btn-info
+                        | Confirm
+            .return-btn
+                button.return-btn.btn.btn-success
+                            | Return
+
+        .delete-btn
+            form.form-horizontal(action=`/topics/${topicTitle}/${id}/delete` method="post")
+                    button.delete-btn.btn.btn-danger
+                            | Delete
+        .modify-btn
+            button.btn.btn-info
+                | Modify

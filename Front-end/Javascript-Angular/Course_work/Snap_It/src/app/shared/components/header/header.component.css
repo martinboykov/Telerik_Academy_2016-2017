@@ -1,0 +1,79 @@
+.navbar {
+    margin: 0px;
+    border: 0px;
+}
+
+.navbar-static {
+    margin: 0px;
+    border: 0px;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+    background-color: black;
+}
+
+.navbar-default {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+}
+
+.navbar-static .active a {
+    background-color: black;
+    border-bottom: 5px solid white;
+    color: white;
+}
+
+.logo {
+    max-height: 30px;
+    margin-top: -5px;
+    margin-right: 5px;
+    float: left;
+}
+
+a>span {
+    color: white;
+}
+
+div>a>span {
+    color: white;
+}
+
+ul>li>a {
+    color: white;
+    max-height: 53px;
+}
+
+a>div>span {
+    color: white;
+}
+
+ul>li>a {
+    border-bottom: 5px solid black;
+}
+
+ul>li>a:hover {
+    border-bottom: 5px solid white;
+}
+
+.glyphicon-user-mobile{
+    color:white;
+    margin: auto;
+}
+
+.ng-tns-c3-0{
+    margin-top:40px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .desctop-only {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+}

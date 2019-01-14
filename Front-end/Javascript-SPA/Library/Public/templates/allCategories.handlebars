@@ -1,0 +1,28 @@
+<div class="panel-default">
+    <div class="panel-heading">
+        <h3>Books List</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="panel-items" style="list-style-type:none">
+            {{#each this}}
+            <li><a href="#/books/category/:{{name}}"><h2>{{name}}</h2></a></li>
+            <hr>
+                {{#if books}}
+                    <ul class="category-books">
+                        {{#each books}}                   
+                        <div class="book-div">
+                            <div class="cover-div">
+                                <img src="{{img}}" alt="Book Cover" class="book-img">
+                            </div>
+                            <div class="book-info">
+                                <a href="#books/:{{id}}"><h3>{{name}}</h3></a>
+                                <h4 class="author-text">Author: {{author}}</h4>
+                            </div>
+                         </div>  
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            {{/each}}
+        </ul>
+    </div>
+</div>

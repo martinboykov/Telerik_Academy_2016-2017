@@ -1,0 +1,32 @@
+<div class="container profile-main">
+    <div class="inside-info">
+        <img class="user-pic img-responsive"
+            src="./../../../assets/img/profile-pictures.png"
+            alt='Profile picture'>
+    </div>
+    <div class="user-name">
+        <h1> {{user?.name}} </h1>
+    </div>
+    <div class="user-email">
+        <span class="labels">
+                <strong>Email: {{user?.email}}</strong>
+        </span>
+    </div>
+    <hr>
+
+        <h2 id="center">Latest Photos</h2>
+        <hr>
+        <div class="gal">
+
+            <ul *ngIf="images">
+                <li *ngFor="let image of (images  | reverse)"
+                    class="img">
+                    <a [routerLink]="['/image', image.$key]">
+                            <img src="{{image.url}}" class="tn">
+                            </a>
+                </li>
+            </ul>
+        </div>
+
+
+</div>

@@ -1,0 +1,28 @@
+extends ../_shared/_master
+block body
+    div#update-form
+        form(action=`/users/${context.username}`, method="POST")
+            ul
+                li
+                    | Change password
+                    p#input-info
+                        | password must be at least 6 chars, consisting of latin lettern and digits only
+                    input.form-control(type="password" name="password" placeholder="Enter new password")
+                li
+                    | Add / Change First name
+                    p#input-info
+                        | first name must contain only latin letters
+                    input.form-control(type="text" name="firstname" placeholder="Enter first name")
+                li
+                    | Add / Change Last name
+                    p#input-info
+                        | last name must contain only latin letters        
+                    input.form-control(type="text" name="lastname" placeholder="Enter last name")
+                li
+                    | Add / Change town        
+                    input.form-control(type="text" name="town" placeholder="Enter town")
+                li
+                    | Add / Change profil image        
+                    input.form-control(type="text" name="profilImage" placeholder="Enter image url")
+                    button.btn.btn-success#btn-update
+                        | Update

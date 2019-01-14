@@ -1,0 +1,349 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: url('/static/css/images/background.jpg')
+}
+
+h1 {
+    text-align: center;
+}
+a {
+    color: black !important;
+}
+
+a:link, a:hover, a:active {
+    text-decoration: none !important;
+}
+
+a:hover {
+    font-size: 1.05em;
+}
+#post-topic-btn{
+    float:left;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#register-btn {
+    float: right;
+    width: 15%;
+    height: 8%;
+    font-size: 150%;
+}
+
+#logout-btn {
+    float: right;
+    width: 15%;
+    height: 8%;
+    font-size: 150%;
+}
+
+#btn-update-profile{
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+.container-filter{
+    float:right;
+    width: 15%;
+
+}
+#reg-form {
+    width: 40%;
+    padding: 2%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+#reg-form>form>input {
+    margin: 2%;
+}
+
+#reg-form>form>button {
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 48%;
+}
+
+#btn-signin {
+    float: left;
+}
+
+#btn-register {
+    float: right;
+    margin-right: -2%;
+}
+
+#input-info{
+    font-size: 10px;
+    margin-left: 5%;
+}
+
+.name-info-left {
+    width: 48% !important;
+    float: left !important;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.name-info-right {
+    width: 48% !important;
+    float: right !important;
+    margin-right: -2%;
+}
+
+textarea {
+    resize: none;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.container{
+    margin-left: 25%;
+    width: 50%;
+    background: #C7EEAF;
+    min-height: 100%;
+}
+
+.nav-tabs {
+    background: #B0C4A2;
+}
+
+div.topic {
+    height: 7vh;
+    width: 100%;
+
+}
+
+#posts-container, div#user-info, div.author, .container, div#topic-info, div.topic, div.topic a, .topic-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.topic a {
+    float: left;
+}
+
+div#topic-info {
+    border-bottom:1px solid black;
+    width: 100%;
+    padding-left: 0.5%;
+    font-size: 150%;
+}
+
+.topic-wrapper {
+    float: left;
+    padding: 1%;
+    font-size: 150%;
+}
+
+div.comment, .panel-body, .topic-wrapper, div.description {
+     word-break:break-all;
+}
+.description{
+    min-height: 22%;
+}
+.panel.panel-default{
+    min-height: 100px;
+    background-color: #C7EEAF;
+    border-color: #4d7a1f;
+}
+
+div#topic-info>div {
+    float: left;
+}
+
+div.title-info {
+    width: 50%;
+}
+
+.author-info {
+    width: 36%;
+}
+
+
+ .date-info {
+    padding-right: 10px;
+}
+
+.topic-wrapper.comments-count-info{
+    margin-left: 4%;
+}
+
+#user-posts-wrapper{
+    display: none;
+}
+
+#posts-hide-btn{
+    display: block;
+}
+
+#posts-hide-btn{
+    display: none;
+}
+
+.post-topic{
+    padding-top: 10px;
+}
+
+div.description {
+    /* border-color: #4d7a1f ; */
+    /* padding: 1% 0%; */
+}
+
+div.author>span {
+    margin-left: 0%;
+}
+
+a.author {
+    color: green!important;
+}
+
+div.author {
+    width: 100%;
+    margin-bottom: 1%;
+    /* border-bottom: 1px solid black; */
+}
+
+div#profile-image {
+    border: 1px solid black;
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+}
+
+div#user-info {
+    margin-top: 5%;
+    width: 100%;
+}
+
+div#profile-info {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+    height: 40vh;
+    padding-left: 5%;
+    padding-top: 0%;
+}
+
+div#profile-info ul li {
+    padding-top: 2%;
+}
+
+img#profile-pic {
+    width: 100%;
+    height: 40vh;
+}
+
+#home-page-img{
+    width: 100%;
+    height: 90vh;
+}
+
+#profile-name {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
+}
+
+#posts-container {
+    width: 100%;
+    word-break:break-all;
+}
+
+div#posts-container div#user-posts-wrapper:nth-child(2n + 1) {
+    background: #5EB32B;
+    color: white;
+}
+
+div#posts-container div#user-posts-wrapper:first-child {
+    margin-top: 2%;
+}
+
+div#user-posts-wrapper {
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+#posts-show-btn, #posts-hide-btn {
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+.add-topic-btn {
+    float: left;
+}
+
+.post-comment {
+    height: 2.2em;
+    line-height: 1.1;
+    overflow: hidden;
+
+}
+.add-comment{
+    margin-top: 10%;
+
+
+}
+.modify-text{
+    display: none;
+
+}
+.delete-btn{
+    float:right;
+}
+.confirm-btn{
+    display: none;
+    float:right;
+}
+.return-btn{
+     float:right;
+     display: none;
+
+}
+.modify-form{
+      min-width: 100%;
+     display: none;
+     /* position :relative;  */
+}
+.modify-btn{
+    float:right;
+}
+
+.add-topic-btn {
+    float: left;
+
+}
+.pagination{
+    min-width:50%;
+    float: right;
+}
+#prev-page-btn, #next-page-btn{
+    float: right;
+}
+
+#prev-page-btn {
+    margin-right: 1%;
+}
+
+div#post-topic-btn {
+    width: 100%;
+}
+
+div.container-filter {
+    margin-right: 2%;
+}
+
+div.container-filter .input-group input, div.container-filter .input-group button{
+    height: 5vh;
+    margin-top: 0.35vh;
+}
+
+div.container-filter .input-group input {
+    margin-top: 1.4%;
+}

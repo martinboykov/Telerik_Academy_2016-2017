@@ -8,14 +8,7 @@ header {
 	margin-left: 10px;
 	font-size: 18px;
 }
-.one{
-	width: 397px;
-	height: 118px;
-	border: 1px solid #9E969B;
-	position: relative;
-	top: 35px;
-	left: 11px;
-}
+
 .two{
 	width: 397px;
 	height: 118px;
@@ -30,6 +23,15 @@ header {
 	border: 1px solid #9E969B;
 	position: relative;
 	top: 105px;
+	left: 11px;
+}
+
+.one{
+	width: 397px;
+	height: 118px;
+	border: 1px solid #9E969B;
+	position: relative;
+	top: 35px;
 	left: 11px;
 }
 img[alt~="Web"] {

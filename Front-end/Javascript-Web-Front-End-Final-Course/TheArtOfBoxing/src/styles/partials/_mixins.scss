@@ -1,0 +1,186 @@
+// Font mixins
+@mixin font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin font-default ($weight: 400, $style: normal) {
+    font-family: $font-default;
+    font-weight: $weight;
+    font-style: $style;
+    @include font-smoothing;
+}
+
+@mixin gradient-main () {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d1c1d+0,1e1e1e+3,2b2b2a+13,323232+21,323232+79,2b2b2a+87,1e1e1e+97,1d1c1d+100 */
+    background: #1d1c1d;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #1d1c1d 0%, #1e1e1e 3%, #2b2b2a 13%, #323232 21%, #323232 79%, #2b2b2a 87%, #1e1e1e 97%, #1d1c1d 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1d1c1d 0%, #1e1e1e 3%, #2b2b2a 13%, #323232 21%, #323232 79%, #2b2b2a 87%, #1e1e1e 97%, #1d1c1d 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1d1c1d 0%, #1e1e1e 3%, #2b2b2a 13%, #323232 21%, #323232 79%, #2b2b2a 87%, #1e1e1e 97%, #1d1c1d 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d1c1d', endColorstr='#1d1c1d', GradientType=1);
+    /* IE6-9 */
+}
+
+@mixin gradient-footer () {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c2c2c+0,2c2c2c+0,181819+0,1c1c1c+6,1d1d1f+6,1f1f1d+7,1d1d1f+7,1f1f1d+7,1f1f20+7,2c2c2c+21,2c2c2c+79,1f1f20+93,1f1f1d+93,1d1d1f+94,1f1f1d+94,1d1d1f+94,1c1c1c+95,191918+100,151516+100&0.87+0,1+0,1+100 */
+    background: -moz-linear-gradient(left, rgba(24, 24, 25, 1) 0%, rgba(28, 28, 28, 1) 6%, rgba(31, 31, 29, 1) 7%, rgba(44, 44, 44, 1) 21%, rgba(44, 44, 44, 1) 79%, rgba(31, 31, 29, 1) 93%, rgba(29, 29, 31, 1) 94%, rgba(28, 28, 28, 1) 95%, rgba(21, 21, 22, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(24, 24, 25, 1) 0%, rgba(28, 28, 28, 1) 6%, rgba(31, 31, 29, 1) 7%, rgba(44, 44, 44, 1) 21%, rgba(44, 44, 44, 1) 79%, rgba(31, 31, 29, 1) 93%, rgba(29, 29, 31, 1) 94%, rgba(28, 28, 28, 1) 95%, rgba(21, 21, 22, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(24, 24, 25, 1) 0%, rgba(28, 28, 28, 1) 6%, rgba(31, 31, 29, 1) 7%, rgba(44, 44, 44, 1) 21%, rgba(44, 44, 44, 1) 79%, rgba(31, 31, 29, 1) 93%, rgba(29, 29, 31, 1) 94%, rgba(28, 28, 28, 1) 95%, rgba(21, 21, 22, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181819', endColorstr='#151516', GradientType=1);
+    /* IE6-9 */
+}
+
+@mixin gradient-post () {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c1c1d+0,323232+22,323232+80,1d1e1e+100 */
+    background: rgb(28, 28, 29);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(28, 28, 29, 1) 0%, rgba(50, 50, 50, 1) 22%, rgba(50, 50, 50, 1) 80%, rgba(29, 30, 30, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(28, 28, 29, 1) 0%, rgba(50, 50, 50, 1) 22%, rgba(50, 50, 50, 1) 80%, rgba(29, 30, 30, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(28, 28, 29, 1) 0%, rgba(50, 50, 50, 1) 22%, rgba(50, 50, 50, 1) 80%, rgba(29, 30, 30, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1d', endColorstr='#1d1e1e', GradientType=1);
+    /* IE6-9 */
+}
+
+@mixin media-query-post() {
+    @media (max-width: 1600px) {
+        align-self: auto;
+        width: auto;
+    }
+}
+
+@mixin media-query-content() {
+    @media (max-width: 1200px) {
+         padding-left: 15px;
+    }
+}
+
+@mixin media-query-logo() {
+    @media (max-width: 1200px) {
+        font-size: 120px;
+    }
+    @media (max-width: 991px) {
+        font-size: 100px;
+    }
+    @media (max-width: 767px) {
+        font-size: 80px;
+    }
+    @media (max-width: 575px) {
+        font-size: 60px;
+    }
+    @media (max-width: 500px) {
+        font-size: 40px;
+    }
+    @media (max-width: 450px) {
+        font-size: 20px;
+    } // @media (max-width: 400px) {
+    //     font-size: 100px;
+    // }
+}
+
+@mixin media-query-header() {
+    @media (max-width: 1200px) {
+        height: 354px;
+    }
+    @media (max-width: 991px) {
+        height: 300px;
+    }
+    @media (max-width: 767px) {
+        height: 250px;
+    } // @media (max-width: 575px) {
+    //     height: 200px;
+    // }
+    // @media (max-width: 500px) {
+    //     height: 150px;
+    // }
+    // @media (max-width: 450px) {
+    //     height: 1004px;
+    // } // @media (max-width: 400px) {
+    //     font-size: 100px;
+    // }
+}
+
+@mixin media-query-header-top() {
+    @media (max-width: 1200px) {
+        padding-top: 15px;
+        padding-left: 15px;
+    } // @media (max-width: 991px) {
+    //     font-size: 100px;
+    // }
+    // @media (max-width: 767px) {
+    //     font-size: 80px;
+    // }
+    // @media (max-width: 575px) {
+    //     font-size: 60px;
+    // }
+    // @media (max-width: 500px) {
+    //     font-size: 40px;
+    // }
+    // @media (max-width: 450px) {
+    //     font-size: 20px;
+    // } // @media (max-width: 400px) {
+    //     font-size: 100px;
+    // }
+}
+
+@mixin media-query-header-bottom() {
+    @media (max-width: 1200px) {
+        margin-left: 54px;
+    }
+    @media (max-width: 991px) {
+        margin-left: 44px;
+    }
+    @media (max-width: 767px) {
+        margin-left: 34px;
+    }
+    @media (max-width: 575px) {
+        margin-left: 24px;
+    }
+    @media (max-width: 500px) {
+        margin-left: 14px;
+    } // @media (max-width: 450px) {
+    //     font-size: 20px;
+    // } // @media (max-width: 400px) {
+    //     font-size: 100px;
+    // }
+}
+
+@mixin media-query-small-nav() {
+    @media (max-width: 1500px) {
+        margin: 10px 0 0 53px;
+    }
+    @media (max-width: 991px) {
+        margin: 10px 0 0 44px;
+    }
+    @media (max-width: 767px) {
+        margin: 10px 0 0 34px;
+    }
+    @media (max-width: 575px) {
+        margin: 10px 0 0 24px;
+    }
+    @media (max-width: 500px) {
+        margin: 10px 0 0 14px;
+    } // @media (max-width: 450px) {
+    //     font-size: 20px;
+    // } // @media (max-width: 400px) {
+    //     font-size: 100px;
+    // }
+}
+
+$grid-breakpoints: ( // Extra small screen / phone
+xs: 0, // Small screen / phone
+sm: 576px, // Medium screen / tablet
+md: 768px, // Large screen / desktop
+lg: 1050px, // Extra large screen / wide desktop
+xl: 1400px);
+$media-large: 1400px;

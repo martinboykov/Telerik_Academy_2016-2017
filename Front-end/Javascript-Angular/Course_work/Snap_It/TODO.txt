@@ -1,0 +1,2 @@
+-add functionality only the user that created the photo to be able to edit it
+

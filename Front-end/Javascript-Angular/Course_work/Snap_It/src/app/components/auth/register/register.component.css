@@ -1,0 +1,40 @@
+.container {
+    margin-top: 100px;
+}
+
+.panel-heading{
+    height: 60px;
+    background-color: transparent;
+
+}
+.btn-default {
+    margin-top: -10px;
+    height: 40px;
+    width: 110px;
+    border: 1px solid gray
+}
+
+@media only screen and (max-width: 378px) {
+    .desktop-only {
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 378px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+  input.ng-invalid.ng-touched{
+    border: red solid 1px;
+  }
+  input.ng-invalid.ng-dirty{
+    border: red solid 1px;
+  }
+  input.ng-valid.ng-touched{
+    border: green solid 1px;
+  }
+  input.ng-valid.ng-dirty{
+    border: green solid 1px;
+  }

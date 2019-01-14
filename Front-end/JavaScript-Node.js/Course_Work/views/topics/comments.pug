@@ -1,0 +1,48 @@
+extends ../_shared/_master
+include ../_shared/_pageChange
+include ../_shared/_modifyPost
+include ../_shared/_modifyContent
+
+block body
+    h1
+        = topic.title
+    if topic.comments
+        div.description
+            div.author
+                span
+                    ='Written by '
+                a(href=`/users/${topic.comments[0].author}`)
+                    =topic.comments[0].author
+                p.date-row
+                    =topic.comments[0].date
+            .panel.panel-default
+                .panel-body
+                    =topic.comments[0].content
+            if user && topic.author === user.username
+                +modifyContent(topic.title, topic.comments[0]._id, topic.comments[0].content)
+    h3
+        ='Comments'
+    -for (let i = 1; i < topic.comments.length; i+=1)
+        div.description
+            div.author
+                span
+                    ='Written by '
+                a(href=`/users/${topic.comments[i].author}`)
+                    =topic.comments[i].author
+                p.date-row
+                    =topic.comments[i].date
+            .panel.panel-default
+                    .panel-body
+                        =topic.comments[i].content
+            if user && topic.comments[i].author === user.username
+                +modifyPost(topic.title, topic.comments[i]._id, topic.comments[i].content)
+
+
+    if user
+        .add-comment
+            form(action=`/topics/${topic.title}/comments` method='post')
+                textarea.form-control(name='comment' placeholder='Add a comment')
+                button.btn.btn-success
+                    | Submit
+    +page(topic.comments.length)
+//-

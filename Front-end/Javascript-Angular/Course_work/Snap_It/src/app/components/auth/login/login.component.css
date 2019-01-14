@@ -1,0 +1,39 @@
+.container {
+    margin-top: 100px;
+}
+
+.panel-heading {
+    height: 60px;
+    background-color: transparent;
+}
+
+.btn-default {
+    height: 40px;
+    width: 110px;
+    border: 1px solid gray
+}
+
+.btn-success {
+    margin-bottom: -15px;
+}
+
+@media only screen and (max-width: 378px) {
+    .desktop-only {
+        display: none;
+    }
+    .panel-title {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 378px) {
+    .mobile-only {
+        display: none;
+    }
+}
+.invalid-data{
+    color: red;
+}
+.reset-success{
+    color: green;
+}

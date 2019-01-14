@@ -1,0 +1,14 @@
+mixin showPosts()
+    script(src = '/static/js/showPosts.js')
+    div#posts-container
+        each comment in context.comments
+            div#user-posts-wrapper
+                div.post.post-topic
+                    | Topic : 
+                    =comment.topic
+                div.post
+                    | Date :
+                    =comment.date
+                div.post.post-comment
+                    | Post :      
+                    =comment.content

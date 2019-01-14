@@ -1,0 +1,35 @@
+extends ../_shared/_master
+include ../_shared/_pageChange
+
+block body
+
+    h1
+        | Topics
+    div#topic-info
+        div.title-info
+            | Title
+        div.author-info
+            | Author
+        div.comments-count-info
+            | Comments
+    each topic in context
+        div.topic
+            div.topic-wrapper.title-info
+                a(href=`/topics/${topic.title}`)
+                    =topic.title
+                    h6
+                        p
+                            | last comment :
+                            =topic.comments[topic.comments.length - 1].date
+            div.topic-wrapper.author-info
+                a(href=`/users/${topic.author}`)
+                    =topic.author
+            div.topic-wrapper.comments-count-info
+                span
+                    =topic.comments.length
+    div#post-topic-btn
+        +page(context.length)
+        if user
+            form(action="/topics/form" method="get")
+                button.btn.btn-success.add-topic-btn
+                    | Start New Topic

@@ -1,0 +1,26 @@
+mixin nav()
+        ul.nav.nav-tabs(role='tablist')
+            li.active
+                a(href="/")
+                    | Home
+            li
+                a(href='/topics')
+                    | All Topics
+            if user
+                li
+                    a(href=`/users/${user.username}`)
+                        =user.username
+                form(action="/auth/sign-out" method="get")
+                    button.btn.btn-danger#register-btn
+                        | sign-out
+            else
+                form(action="/auth/sign-in" method="get")
+                    button.btn.btn-success#logout-btn
+                        | Sign In
+            div.container-filter
+                form(action='/topics/filtered' method="get")
+                    .input-group
+                        input.form-control(type='text', placeholder='Search', name='searh')
+                        .input-group-btn
+                            button.btn.btn-default(type='submit')
+                                i.glyphicon.glyphicon-search
