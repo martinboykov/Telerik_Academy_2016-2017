@@ -1,5 +1,7 @@
 ## ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)   ![Telerik](https://github.com/martinboykov/Telerik_Academy/blob/master/images/telerik-academy-logo.jpg)   ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)  ![star](https://github.com/martinboykov/Telerik_Academy/blob/master/images/star23.jpg)
 
+### Telerik Academy 2016-2017
+
 * Course assignments - homeworks, presentations, demos, projects and teamworks.
 
 * The training is **practice-oriented** and involves solving hundreds of problems,
