@@ -14,7 +14,7 @@ which **develop algorithmic thinking and skills**.
 | [C# OOP](CSharp/OOP)                        | [Javascript-Fundamentals](Front-end/Javascript-Fundamentals)                                                            |
 |                                             | [Javascript-OOP](Front-end/Javascript-OOP)                                                                              |
 |                                             | [Javascript-UI-and-DOM](Front-end/Javascript-UI-and-DOM)                                                                |
-|                                             | [Javascript-Nodejs](Front-end/Javascript-Nodejs)                                                                        |
-|                                             | [Javascript-SPA](Front-end/Javascript-SPA)                                                                              |
-|                                             | [Javascript-Angular](Front-end/Javascript-Angular)                                                                      |
-|                                             | [Javascript-Web-Front-End-Final-Course](Front-end/Javascript-Web-Front-End-Final-Course)                                |
+|                                             | [Javascript-Nodejs](Front-end/Javascript-Nodejs/Course_Work)                                                                        |
+|                                             | [Javascript-SPA](Front-end/Javascript-SPA/Library)                                                                              |
+|                                             | [Javascript-Angular](Front-end/Javascript-Angular/Course_work/Snap_It)                                                                      |
+|                                             | [Javascript-Web-Front-End-Final-Course](Front-end/Javascript-Web-Front-End-Final-Course/TheArtOfBoxing)                                |
